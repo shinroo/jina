@@ -6,6 +6,7 @@ on:
 jobs:
   update-jina-hub:
     runs-on: ubuntu-latest
+    timeout-minutes: 600
     steps:
       - uses: actions/checkout@v2
         with:
